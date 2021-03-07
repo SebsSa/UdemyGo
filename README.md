@@ -25,3 +25,14 @@ This is my UdemyGo Project
 
         - What does "func" mean ?
             A:  Works like "functions" works in other languages. 
+
+        - If you first declare a var use :=
+
+        - Array vs Slice
+            Silce is "basically" a Array with more features
+            Array is fix length - Silce can grow and shrink
+
+        - func (d deck) print(){
+            Set a methode to a variable we created !
+            Any variable of type deck get access to the message print()
+            d is the actually reference to the variable calling the print()
