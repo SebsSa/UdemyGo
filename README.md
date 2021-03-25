@@ -35,4 +35,12 @@ This is my UdemyGo Project
         - func (d deck) print(){
             Set a methode to a variable we created !
             Any variable of type deck get access to the message print()
-            d is the actually reference to the variable calling the print()
+            d is the actually reference to the 
+            variable calling the print()
+
+        - Array[0:3]
+            Could be written as Array[:3] its 0,1,2 - so 3 is not included.
+            Array[3:] is the rest of array till the end
+
+        - type conversion
+            []byte("Heyo")
