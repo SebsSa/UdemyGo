@@ -44,3 +44,13 @@ This is my UdemyGo Project
 
         - type conversion
             []byte("Heyo")
+
+        - test conversion
+            main_test always with _ test
+            and functions inside this files need to start with a uppercase T
+        
+        - go test did not work for me
+            needed to do go mod init 'pwd'
+            the argument to go mod init is a module path, but pwd is generally an absolute filesystem path
+            go mod tidy
+            
